@@ -1,1 +1,2 @@
-console.log('Starting with git')
+//* add specific extensions
+//? git add *.js
