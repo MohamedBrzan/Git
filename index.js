@@ -7,4 +7,4 @@
 //? Modified => if you make any edit to the file after last commit
 //? Staged => when you make git add to those files after make changes
 
-//* any chenn
+//* any thing to commit
