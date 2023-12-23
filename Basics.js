@@ -28,3 +28,6 @@
 
 //* Checking for the short Status of Your Files
 //TODO: ** git status -s **
+
+//* Ignoring Files || Folders
+//TODO: put the direction for this file || folder in => ** .gitignore **
