@@ -4,6 +4,9 @@
 //* add specific extensions
 //TODO: ** git add *.js **
 
+//* tracking all new files and folders
+//TODO: ** git add . **
+
 //* Cloning an Existing Repository
 //? Https Protocol
 //TODO: ** git clone https://github.com/[Account Name]/[File Name].git **
