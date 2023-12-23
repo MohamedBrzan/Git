@@ -94,12 +94,24 @@
 
 //? %an => Author Name
 //? %ae => Author Email
-//? %ad => Author Date ( showing how long you committed )
+//? %ad => Author Date ( showing how long is passed since your committed )
 //? %ar => Author Relative
 
 //? %cn => Committer Name
 //? %ce => Committer Email
-//? %cd => Committer Date ( showing how long you committed all commits )
+//? %cd => Committer Date ( showing how long time is passed for committed every commit )
 //? %cr => Committer Relative
 
 //? %s => Subject ( showing all commits messages )
+
+//* Common options to ( git log )
+//? -p => showing every commit with last change that happened in the modified file
+//? --stat => showing statistics for every commit in the modified file
+//? --shortstat => showing just the operation line after commit information
+//? --name-only => showing just the file that modified  after commit information
+//? --name-status => showing the operation letter behind the modified file after commit information
+//? --abbrev-commit => showing the first few characters of the commit hash ( 7 letters )
+//? --relative-date => showing the date in the relative format ( showing when the commit is committed in the relative way ( 2 weeks || 2days || 12 minutes || 2 seconds ) )
+//? --graph => display an ASCII graph for the branch and merge history beside the log output
+//? --pretty => showing commits in an alternate formate.  values => ( oneline - short - full - fuller )
+//? --oneline => shorthand for --pretty=oneline --abbrev-commit used together.
