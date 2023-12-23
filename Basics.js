@@ -49,3 +49,6 @@
 
 //* Removing Files
 //TODO: ** git rm [file1 file2 file3] **
+
+//* Removing the files that you staged it accidentally ( if you need to get back from git add ( cached files))
+//TODO: ** git rm --cached [filename] **
