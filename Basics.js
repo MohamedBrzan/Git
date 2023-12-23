@@ -46,3 +46,6 @@
 
 //* Commit your changes
 //TODO: ** git commit -m "commit message" **
+
+//* Removing Files
+//TODO: ** git rm [file1 file2 file3] **
