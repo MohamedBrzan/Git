@@ -23,5 +23,8 @@
 //? Modified => if you make any edit to the file after last commit
 //? Staged => when you make git add to those files after make changes
 
-//* Checking the Status of Your Files
+//* Checking for the Status of Your Files
 //TODO: ** git status **
+
+//* Checking for the short Status of Your Files
+//TODO: ** git status -s **
