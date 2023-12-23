@@ -52,3 +52,9 @@
 
 //* Removing the files that you staged it accidentally ( if you need to get back from git add ( cached files))
 //TODO: ** git rm --cached [filename] **
+
+//* Removing a specific directory
+//TODO: ** git rm file/\*.js **
+
+//* Removing all files that ends with a specific letter
+//TODO: ** git rm /*~ ** ( this command removes all files whose names end with a ~)
