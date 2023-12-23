@@ -31,3 +31,9 @@
 
 //* Ignoring Files || Folders
 //TODO: put the direction for this file || folder in => ** .gitignore **
+
+//? Ignoring A Specific extension
+//TODO: put the direction for this file || folder in => ** .extension **
+
+//? Ignoring All .extension
+//TODO: put the direction for this file || folder in => ** *.extension **
