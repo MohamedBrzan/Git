@@ -30,10 +30,16 @@
 //TODO: ** git status -s **
 
 //* Ignoring Files || Folders
-//TODO: put the direction for this file || folder in => ** .gitignore **
+//TODO: ** .gitignore **
 
 //? Ignoring A Specific extension
-//TODO: put the direction for this file || folder in => ** .extension **
+//TODO: ** .extension **
 
 //? Ignoring All .extension
-//TODO: put the direction for this file || folder in => ** *.extension **
+//TODO: ** *.extension **
+
+//* See What you've changed but not yet staged
+//TODO: ** git diff **
+
+//* See What you've staged that will go into your next commit
+//TODO: ** git diff --staged **
