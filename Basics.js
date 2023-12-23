@@ -115,3 +115,29 @@
 //? --graph => display an ASCII graph for the branch and merge history beside the log output
 //? --pretty => showing commits in an alternate formate.  values => ( oneline - short - full - fuller )
 //? --oneline => shorthand for --pretty=oneline --abbrev-commit used together.
+
+//* Limiting Log Output
+//? Find commits in a specific time
+//TODO: ** git log --since=[2.weeks] ** || ** --since="2023-01-23" ** || ** --since="2 years 1 day 3 minutes age" **
+
+//? Find commits with a specific author
+//TODO: ** git log --author="name"
+
+//? Find commits with a specific message word | letter
+//TODO: ** git log --grep="name"
+
+//* Only show commits adding or removing code matching the string.
+//TODO: ** git log -S function_name
+
+//* Find commits for a specific file
+//TODO: ** git log -- [path to the file] **
+
+//* Options to limit the output of ( git log )
+
+//? -<(n)> => show only the last ( n ) commits
+//? --since, --after => show only commits that made after a specific date
+//? --until, --before => show only commits that made before a specific date
+//? --author => show only commits that committer with a specific author
+//? --committer => only show commits in which the committer entry matches the specified string.
+//? --grep => only show commits with a commit message containing the string.
+//? -S => only show commits adding or removing code matching the string.
