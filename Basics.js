@@ -70,3 +70,10 @@
 
 //* Viewing the difference in each commit and showing a limit ( showing the number of commits )
 //TODO: ** git log -p -[number] ** || ** git log --patch -[number] **
+
+//* Show some abbreviated stats ( statistics )
+
+//? - showing number of files that changed
+//? - showing the operations that did in it [adding - insertions - deletions]
+
+//TODO: ** git log --stat **
