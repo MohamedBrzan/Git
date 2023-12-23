@@ -38,8 +38,8 @@
 //? Ignoring All .extension
 //TODO: ** *.extension **
 
-//* See What you've changed but not yet staged
+//* See What you've changed but not yet staged ( still don't use git add .)
 //TODO: ** git diff **
 
-//* See What you've staged that will go into your next commit
-//TODO: ** git diff --staged **   
+//* See What you've staged that will go into your next commit ( after used git add .)
+//TODO: ** git diff --staged || --cached **       
