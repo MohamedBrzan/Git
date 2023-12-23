@@ -83,3 +83,23 @@
 
 //* Show commit history in pretty format
 //TODO: ** git log --pretty=oneline **
+
+//* Useful specifiers for git log --pretty=format
+//? %H => Commit Hash
+//? %h => Abbreviated Commit Hash
+//? %T => Tree Hash
+//? %t => Abbreviated Tree Hash
+//? %P => Parent Hashes
+//? %p => Abbreviated Parent Hashes
+
+//? %an => Author Name
+//? %ae => Author Email
+//? %ad => Author Date ( showing how long you committed )
+//? %ar => Author Relative
+
+//? %cn => Committer Name
+//? %ce => Committer Email
+//? %cd => Committer Date ( showing how long you committed all commits )
+//? %cr => Committer Relative
+
+//? %s => Subject ( showing all commits messages )
