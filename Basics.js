@@ -50,7 +50,7 @@
 //* Removing Files
 //TODO: ** git rm [file1 file2 file3] **
 
-//* Removing the files that you staged it accidentally ( if you need to get back from git add ( cached files))
+//* Removing the files that you staged it accidentally ( if you need to get back from git add ( cached files ) )
 //TODO: ** git rm --cached [filename] **
 
 //* Removing a specific directory
@@ -62,8 +62,11 @@
 //* Moving Files ( renaming file)
 //TODO: ** git mv [file_from] [file_to]
 
-//* Viewing the Commit History ( show all commits with a reverse chronological order (newer to the top))
+//* Viewing the Commit History ( show all commits with a reverse chronological order (newer to the top) )
 //TODO: ** git log **
 
-//* Viewing the difference in each commit ( showing what's changed in every commit)
+//* Viewing the difference in each commit ( showing what's changed in every commit )
 //TODO: ** git log -p ** || ** git log --patch **
+
+//* Viewing the difference in each commit and showing a limit ( showing the number of commits )
+//TODO: ** git log -p -[number] ** || ** git log --patch -[number] **
