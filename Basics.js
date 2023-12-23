@@ -42,4 +42,7 @@
 //TODO: ** git diff **
 
 //* See What you've staged that will go into your next commit ( after used git add .)
-//TODO: ** git diff --staged || --cached **       
+//TODO: ** git diff --staged || --cached **
+
+//* Commit your changes
+//TODO: ** git commit -m "commit message" **
