@@ -58,3 +58,8 @@
 
 //* Removing all files that ends with a specific letter
 //TODO: ** git rm /*~ ** ( this command removes all files whose names end with a ~)
+
+//* Moving Files ( renaming file)
+//TODO: ** git mv [file_from] [file_to]
+
+
