@@ -62,4 +62,8 @@
 //* Moving Files ( renaming file)
 //TODO: ** git mv [file_from] [file_to]
 
+//* Viewing the Commit History ( show all commits with a reverse chronological order (newer to the top))
+//TODO: ** git log **
 
+//* Viewing the difference in each commit ( showing what's changed in every commit)
+//TODO: ** git log -p ** || ** git log --patch **
