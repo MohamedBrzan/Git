@@ -77,3 +77,9 @@
 //? - showing the operations that did in it [adding - insertions - deletions]
 
 //TODO: ** git log --stat **
+
+//* Show some abbreviated stats in pretty format
+//TODO: ** git log --stat --pretty=oneline **
+
+//* Show commit history in pretty format
+//TODO: ** git log --pretty=oneline **
