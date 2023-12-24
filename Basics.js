@@ -155,3 +155,9 @@
 
 //? To shows which the URLs that Git has stored for the shortname to be used when reading and writing to that remote
 //TODO: ** git remote -v **
+
+//* Adding a Remote Repository
+//TODO: ** git remote add <shortname> <url>
+
+//* Fetching all information from specific remote
+//TODO: ** git fetch <remote | shortname> **
