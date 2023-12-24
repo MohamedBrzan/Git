@@ -201,3 +201,10 @@
 
 //? Deleting Tag
 //TODO: ** git tag -d < tag version ( v + version number ) > **
+
+//? Checking out tag
+//TODO: ** git checkout < tag version ( v + version number ) > **
+
+//* Selecting branch and if the branch name not found then make a new branch with the input name
+//TODO: ** git checkout -b <branch name> **
+
