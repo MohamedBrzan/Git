@@ -211,4 +211,6 @@
 //* Selecting branch and if the branch name not found then make a new branch with the input name and belong it to the specific version
 //TODO: ** git checkout -b <branch name> < tag version ( v + version number ) > **
 
-
+//* Git Aliases ( to make an alias ( shortname ) for each command using git config )
+//TODO: ** git config --global alias.[shortname] [command] **
+//TODO: ** git config --global alias.[shortname] "command" **
