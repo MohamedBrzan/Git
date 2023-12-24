@@ -149,4 +149,9 @@
 //? Unstaging a Staged File with git restore ( do it after git add )
 //TODO: ** git restore --staged [filename].extension **
 
+//* Showing Your Remotes
+//? To see which remote servers you have configured
+//TODO: ** git remote **
 
+//? To shows which the URLs that Git has stored for the shortname to be used when reading and writing to that remote
+//TODO: ** git remote -v **
