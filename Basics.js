@@ -177,13 +177,18 @@
 //* Removing Remotes
 //TODO: ** git remote remove <current remote name> **
 
-
 //* Tagging
 
 //? Listing your tags
 //TODO: ** git tag **
 
-//? Search about specific tag pattern 
+//? Search about specific tag pattern
 //TODO: ** git tag -l "specific tag pattern" **
 
+//? Creating tags ( Git supports two types of tags ( lightweight and annotated ) )
 
+//? Create Annotated tags
+//TODO: ** git tag -a < version ( v + version number ) > -m "message string" **
+
+//? Create Lightweight tags
+//TODO: ** git tag < version ( v + version number ) >-lw
