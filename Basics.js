@@ -191,4 +191,10 @@
 //TODO: ** git tag -a < version ( v + version number ) > -m "message string" **
 
 //? Create Lightweight tags
-//TODO: ** git tag < version ( v + version number ) >-lw
+//TODO: ** git tag < version ( v + version number ) >-lw **
+
+//? Sharing tags to the remote server
+//TODO: ** git push <remote> <version ( v + version number ) > **
+
+//? Showing all tags in the remote
+//TODO: ** git push <remote> --tags **
