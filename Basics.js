@@ -208,3 +208,7 @@
 //* Selecting branch and if the branch name not found then make a new branch with the input name
 //TODO: ** git checkout -b <branch name> **
 
+//* Selecting branch and if the branch name not found then make a new branch with the input name and belong it to the specific version
+//TODO: ** git checkout -b <branch name> < tag version ( v + version number ) > **
+
+
