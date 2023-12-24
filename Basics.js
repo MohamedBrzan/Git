@@ -176,3 +176,14 @@
 
 //* Removing Remotes
 //TODO: ** git remote remove <current remote name> **
+
+
+//* Tagging
+
+//? Listing your tags
+//TODO: ** git tag **
+
+//? Search about specific tag pattern 
+//TODO: ** git tag -l "specific tag pattern" **
+
+
