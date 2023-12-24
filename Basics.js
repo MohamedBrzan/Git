@@ -165,3 +165,14 @@
 //* Fetching and merge that data Automatically with my current branch
 //TODO: ** git pull **
 
+//* Pushing to your remote if you have the right access ( just if you make clone from the repo first )
+//TODO: ** git push <remote> <branch> **
+
+//* Inspecting a remote
+//TODO: ** git remote show origin **
+
+//* Renaming Remotes
+//TODO: ** git remote rename <current remote name> <new remote name>
+
+//* Removing Remotes
+//TODO: ** git remote remove <current remote name> **
