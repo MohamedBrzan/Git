@@ -198,3 +198,6 @@
 
 //? Showing all tags in the remote
 //TODO: ** git push <remote> --tags **
+
+//? Deleting Tag
+//TODO: ** git tag -d < tag version ( v + version number ) > **
