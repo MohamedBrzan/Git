@@ -141,3 +141,12 @@
 //? --committer => only show commits in which the committer entry matches the specified string.
 //? --grep => only show commits with a commit message containing the string.
 //? -S => only show commits adding or removing code matching the string.
+
+//* Unmodifing a Modified File ( for deleting all changes in a specific file and return it to the last commit )
+//TODO: ** git checkout -- [filename].extension **
+
+//* From Git version 2.23.0 introduced a new command: git restore it's alternative to git reset
+//? Unstaging a Staged File with git restore ( do it after git add )
+//TODO: ** git restore --staged [filename].extension **
+
+
