@@ -161,3 +161,7 @@
 
 //* Fetching all information from specific remote
 //TODO: ** git fetch <remote | shortname> **
+
+//* Fetching and merge that data Automatically with my current branch
+//TODO: ** git pull **
+
