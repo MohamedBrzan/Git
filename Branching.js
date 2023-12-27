@@ -88,3 +88,32 @@ to connect with that and your pointer change when any update happened
 
 //* if you need to create a local branch starts where the remote branch is:
 //TODO: ** git checkout -b < new local branch name > < remote name >/< remote branch name > **
+
+//* Tracking Branches
+`Tracking branches are
+local branches that have a direct relationship to a remote branch. If you’re on a tracking branch
+and type git pull, Git automatically knows which server to fetch from and which branch to merge
+in.
+
+When you clone a repository, it generally automatically creates a master branch that tracks
+origin/master. However, you can set up other tracking branches if you wish — ones that track
+branches on other remotes, or don’t track the master branch. The simple case is the example you
+just saw, running git checkout -b <branch> <remote>/<branch>. This is a common enough operation
+that Git provides the --track shorthand:`;
+//? if you need to make a new branch to track a remote branch
+//TODO: ** git checkout -b < new branch name > < remote name >/< remote branch name > **
+
+//? if you want the new local branch name is the same name with the remote branch name:
+//TODO: ** git checkout --track < remote name >/< branch name ( remote branch === new branch name ) > **
+
+//? if you have a local branch and the local branch name is the same with the remote branch name and you want to set it to track a remote branch
+//TODO: ** git branch -u < remote name >/< remote branch name > **
+
+`When you have a tracking branch set up, you can reference its upstream branch
+with the @{upstream} or @{u} shorthand. So if you’re on the master branch and it’s
+tracking origin/master, you can say something like git merge @{u} instead of git
+merge origin/master if you wish.`;
+//TODO: ** git merge @{u} **
+
+//? to see what tracking branches you have set up
+//TODO: ** git branch -vv **
