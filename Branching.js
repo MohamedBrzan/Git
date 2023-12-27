@@ -83,3 +83,5 @@ to connect with that and your pointer change when any update happened
 //* If you have a local branch named "master" and you want to name it another name in remote so
 //TODO: ** git push < remote name > < local branch name >:< remote branch name that you want > **
 
+//* After you make ( git clone ) to remote branch and you want to merge it with your local so select your local branch and do this
+//TODO: ** git merge < remote name >/< remote branch name > **
