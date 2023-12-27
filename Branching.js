@@ -22,3 +22,19 @@
 
 //* Return to your previously checked out branch
 //TODO: ** git switch - **
+
+//* Basic Branching and Merging
+
+//* Create merge branch
+//TODO: ** git merge < branch name > **
+//? for example if you merge that new branch with the master branch so the master branch will point to the same place of the new branch
+
+//* Basic Merge Conflicts ( it happen if you changed the same part of the same file differently in the two branches you’re merging )
+//? after you fix one of those files then do ( git mergetool then  do git commit ) to solve it
+
+//* Branch Management
+
+//* To see the last commit on each branch 
+//TODO: ** git branch -v **
+
+
