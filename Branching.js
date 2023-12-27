@@ -43,8 +43,17 @@
 //* To see the branches that not merged into
 //TODO: ** git branch --no-merged **
 
+//* Change the branch name locally
+//TODO: ** git branch --move < old name > < new name > **
+
+//* Change the branch name remotely
+//TODO: ** git branch --move < old name > < new name > ** and then push it with ( git push -u < remote name > < new branch name > )
+
 //* Deleting branch locally
 //TODO: ** git branch -d < branch name > **
 
 //* Deleting branch remotely
-//TODO: ** git push < remote name > --delete < branch name ( that you want to delete it from your remote ) > **
+//TODO: ** git push < remote name > --delete < branch name > **
+
+
+//* Branching Workflows
