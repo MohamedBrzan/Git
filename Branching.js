@@ -55,5 +55,26 @@
 //* Deleting branch remotely
 //TODO: ** git push < remote name > --delete < branch name > **
 
-
 //* Branching Workflows
+//* Long-Running Branches
+`Because Git uses a simple three-way merge, merging from one branch into another multiple times
+over a long period is generally easy to do. This means you can have several branches that are
+always open and that you use for different stages of your development cycle; you can merge
+regularly from some of them into others.`;
+
+//* Topic Branches
+`Topic branches, however, are useful in projects of any size. A topic branch is a short-lived branch
+that you create and use for a single particular feature or related work.`;
+
+//* Remote Branches
+`when you make //TODO: git clone 
+from a repo you have two branches in your project
+1. master ( remote branch )
+2. master ( local branch )
+so when any one make update to the remote one
+so you'll never get that update because you're not connected
+so you need to use //TODO: git fetch < remote name >
+to connect with that and your pointer change when any update happened
+`;
+
+//* Pushing
