@@ -34,7 +34,11 @@
 
 //* Branch Management
 
-//* To see the last commit on each branch 
+//* To see the last commit on each branch
 //TODO: ** git branch -v **
 
+//* To see the branches that merged together
+//TODO: ** git branch --merged **
 
+//* To see the branches that not merged together
+//TODO: ** git branch --no-merged **
