@@ -72,9 +72,14 @@ from a repo you have two branches in your project
 1. master ( remote branch )
 2. master ( local branch )
 so when any one make update to the remote one
-so you'll never get that update because you're not connected
+so you'll never get that update because your local branch aren’t automatically synchronized
 so you need to use //TODO: git fetch < remote name >
 to connect with that and your pointer change when any update happened
 `;
 
 //* Pushing
+//TODO: ** git push < remote name > < branch name > **
+
+//* If you have a local branch named "master" and you want to name it another name in remote so
+//TODO: ** git push < remote name > < local branch name >:< remote branch name that you want > **
+
