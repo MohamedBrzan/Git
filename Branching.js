@@ -42,5 +42,3 @@
 
 //* To see the branches that not merged into
 //TODO: ** git branch --no-merged **
-
-
