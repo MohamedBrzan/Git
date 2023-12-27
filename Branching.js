@@ -117,3 +117,22 @@ merge origin/master if you wish.`;
 
 //? to see what tracking branches you have set up
 //TODO: ** git branch -vv **
+
+`It’s important to note that these numbers are only since the last time you fetched from each server.
+This command does not reach out to the servers, it’s telling you about what it has cached from these
+servers locally. If you want totally up to date ahead and behind numbers, you’ll need to fetch from
+all your remotes right before running this. You could do that like this:`;
+//? if you want to update your local branch first with the last remote branch update so:
+//TODO: ** git fetch --all; git branch -vv **
+
+//* Pulling
+//? ( git pull ) === ( doing git fetch and then do git merge right away )
+//TODO: ** git pull **
+
+//* Deleting Remote Branches
+//TODO: ** git push < remote name > --delete < branch name that you want to delete it > **
+
+
+
+//* Rebasing
+
