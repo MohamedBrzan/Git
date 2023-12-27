@@ -42,3 +42,9 @@
 
 //* To see the branches that not merged into
 //TODO: ** git branch --no-merged **
+
+//* Deleting branch locally
+//TODO: ** git branch -d < branch name > **
+
+//* Deleting branch remotely
+//TODO: ** git push < remote name > --delete < branch name ( that you want to delete it from your remote ) > **
