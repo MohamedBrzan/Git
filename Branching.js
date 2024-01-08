@@ -132,7 +132,16 @@ all your remotes right before running this. You could do that like this:`;
 //* Deleting Remote Branches
 //TODO: ** git push < remote name > --delete < branch name that you want to delete it > **
 
-
-
 //* Rebasing
 
+//* If you want take the patch of the change that was introduced in your branch and reapply it on top of another branch.
+1; //TODO: while you in the branch that you make changes into, you do git rebase to that branch that you want to reapply on the top of it
+//? ex: if you make changes in ( A ) branch and you need to rebase it with ( B ) branch
+//TODO: ** git rebase B ** then => ** git checkout B ** then => ** git merge A **
+
+`if you branched a
+topic branch (server) to add some server-side functionality to your project, and made a commit.
+Then, you branched off that to make the client-side changes (client) and committed a few times.
+Finally, you went back to your server branch and did a few more commits.`;
+
+//TODO: ** git rebase --onto  <main branch> <topic branch (created from the main branch)> <branch that you need to rebase it (created from topic branch)>
